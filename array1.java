@@ -4,7 +4,7 @@ class array1{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter array size..");
 		int size= sc.nextInt();
-		int a[]=new int[size];
+		int a[]=new int[size+10];
 		int sum=0,i;
 		System.out.println("enter elements..");
 		for(i=0;i<size;i++)
